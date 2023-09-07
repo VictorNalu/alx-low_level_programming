@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
  * main - this sdesribes the main function of the code
- * Return: 0
- 	*/
+ *
+ * Return: 0 on success
+ */
 int main(void)
 {
 	char a;
