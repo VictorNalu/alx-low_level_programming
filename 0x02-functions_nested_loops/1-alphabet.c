@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_the alphabet - this is the function of the task
+ * print_alphabet - this is the function of the task
  * Return: return 0
  */
 
