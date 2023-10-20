@@ -2,8 +2,8 @@
 #include "lists.h"
 
 /**
- * print_list -  prints all the elements of a linked list and return the number of nodes
- * @hp: pointer to the head of the linked list
+ * print_list -  prints all the elements of a linked list
+ * @h: pointer to the head of the linked list
  * Return:the number of nodes
  */
 
@@ -18,8 +18,8 @@ size_t print_list(const list_t *h)
 		else
 			printf("[%u] %s\n", h->len, h->str);
 
-		num++;
 		h = h->next;
+		num++;
 	}
 		return (num);
 }
