@@ -32,5 +32,5 @@ newnode->len++;
 newnode->next = *head;
 *head = newnode;
 
-return (newnode);
+return (*head);
 }
