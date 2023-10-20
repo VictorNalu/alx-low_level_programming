@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "lists.h"
-#include <stddef.h>
 
 /**
  * print_list -  prints all the elements of a linked list
  * @h: pointer to the head of the linked list
- * Return:the number of nodes
+ *
+ * Return:the number of nodes printed
  */
 
 size_t print_list(const list_t *h)
