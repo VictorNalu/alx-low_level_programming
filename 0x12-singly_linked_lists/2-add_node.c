@@ -20,18 +20,16 @@ newnode = malloc(sizeof(list_t));
 if (newnode == NULL)
 return (NULL);
 
-
-new_node->str = strdup(str);
 if (newnode->str == NULL)
 {
-free(new_node);
+free(newnode);
 return (NULL);
 }
 newnode->len = 0;
 while (str[newnode->len])
 newnode->len++;
 
-new_node->next = *head;
+newnode->next = *head;
 *head = newnode;
 
 return (newnode);
