@@ -9,14 +9,14 @@
 
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	listint_ *count2;
+	listint_ *count;
 
-	count2 = malloc(sizeof(listint_t));
-	if (!count2)
+	count = malloc(sizeof(listint_t));
+	if (!count)
 		return (NULL);
-	count2->n = n;
-	count2->next = *head;
-	*head = count2;
+	count->n = n;
+	count->next = *head;
+	*head = count;
 
-	return (count2);
+	return (count);
 }
