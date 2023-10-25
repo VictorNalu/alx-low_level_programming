@@ -19,5 +19,5 @@ sub = (*head)->next;
 free(*head);
 *head = temp;
 
-return (num);
+return (count);
 }
