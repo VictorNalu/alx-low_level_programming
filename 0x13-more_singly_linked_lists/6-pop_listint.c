@@ -17,7 +17,7 @@ return (0);
 count = (*head)->n;
 sub = (*head)->next;
 free(*head);
-*head = temp;
+*head = sub;
 
 return (count);
 }
