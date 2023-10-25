@@ -34,7 +34,7 @@ i++;
 
 now = sub->next;
 sub->next = now->next;
- free(now);
+free(now);
 
- return (1);
+return (1);
 }
