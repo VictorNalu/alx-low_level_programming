@@ -16,7 +16,7 @@ unsigned long int x = n ^ m;
 
 for (a = 63; a >= 0; a--)
 {
-previous = x >> a;
+nalu = x >> a;
 if (nalu & 1)
 count++;
 }
